@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Perform your AJAX/Fetch login
         // For the sake of this example, let's assume the login was successful
         setFormMessage(loginForm, "success", "Login successful");
+        // setFormMessage(loginForm, "error", "Invalid username/password combination");
 
         // Redirect to index.html after a successful login
         window.location.href = "index.html";
